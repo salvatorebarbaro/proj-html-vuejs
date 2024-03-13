@@ -1,7 +1,8 @@
 <script>
 import AppNavbar from './components/AppNavbar.vue';
 import AppNavbarSecond from './components/AppNavbarSecond.vue';
-import AppNavbarThird from './components/AppNavbarThird.vue'
+import AppNavbarThird from './components/AppNavbarThird.vue';
+import AppSectionRed from './components/AppSectionRed.vue';
 
 export default{
   data(){
@@ -12,7 +13,7 @@ export default{
       AppNavbar,
       AppNavbarSecond,
       AppNavbarThird,
-      
+      AppSectionRed,
   },
   created(){
    
@@ -29,6 +30,7 @@ export default{
   <AppNavbar></AppNavbar>
   <AppNavbarSecond></AppNavbarSecond>
   <AppNavbarThird></AppNavbarThird>
+  <AppSectionRed></AppSectionRed>
   
  
 </template>

@@ -141,7 +141,7 @@ export default{
                 display: flex;
                 gap: 10px;
                 align-items: center;
-                margin-right: 58px;
+                margin-right: 48px;
                 .fa-solid{
                     color: #457992;
                 }
@@ -175,6 +175,7 @@ export default{
                     border: 0;
                     border-radius: 30px;
                     cursor: pointer;
+                    white-space: nowrap;
                 }
 
             }
