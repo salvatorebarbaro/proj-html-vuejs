@@ -29,6 +29,59 @@ export const store = reactive({
         
     ],
 
+    // courses:[
+    //     {
+    //         img:'../assets/img/895786_7b4b_2-272x161.jpg',
+    //         type:'Development>',
+    //         name:'The Complete IOS 10 & Swift 3 Developer Course ',
+    //         rating:'4',
+    //         price:'$199.99',
+    //         discount:'$100'
+    //     },
+    //     {
+    //         img:'../assets/img/246154_d8b0_3-272x161.jpg',
+    //         type:'Development>',
+    //         name:'Web design for beginners:Real World Coding in HTML & CSS',
+    //         rating:'5',
+    //         price:'$129.99',
+    //         discount:'$65'
+    //     },
+    //     {
+    //         img:'../assets/img/752950_b773-272x161.jpg',
+    //         type:'Development>',
+    //         name:'GitHub Ultimate:Master Git and GitHub - Beginner to expert',
+    //         rating:'4',
+    //         price:'$99.99',
+    //         discount:'$50'
+    //     },
+    //     {
+    //         img:'../assets/img/1253188_58f7_2-272x161.jpg',
+    //         type:'Development>',
+    //         name:'The Complete IOS 11 & Swift Developer Course -Build 20 Apps ',
+    //         rating:'4',
+    //         price:'$199.99',
+    //         discount:'$100'
+    //     },
+    //     {
+    //         img:'../assets/img/919872_ed54_6-272x161.jpg',
+    //         type:'Development>',
+    //         name:'Android Java Masterclass- Become an App Developer',
+    //         rating:'4',
+    //         price:'$99.99',
+    //         discount:'$50'
+    //     },
+    //     {
+    //         img:'../assets/img/951684_9c1a_2-272x161.jpg',
+    //         type:'Development>',
+    //         name:'Xamarin Forms:Build Native Cross-platform Apps with C#',
+    //         rating:'4',
+    //         price:'$189.99',
+    //         discount:'$95'
+    //     },
+        
+        
+    // ],
+
     
 
 })
