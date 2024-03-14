@@ -237,7 +237,7 @@
     // gap: 20px;
     }
     #elemento_mobile{
-        position: absolute;
+        position: fixed;
         bottom: 145px;
         right: 0;
         display: flex;
@@ -246,6 +246,7 @@
         // border: 1px $grigio solid;
         align-items: center;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        background-color: white;
 
     }
     #container_corsi{

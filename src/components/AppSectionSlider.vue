@@ -45,6 +45,9 @@ export default{
   background-image: url(../assets/img/bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+  img{
+    width: 100%;
+  }
   #text{
     color: #273044;
     position: absolute;
