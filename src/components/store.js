@@ -5,6 +5,8 @@ export const store = reactive({
     // in questo caso avremo films che è l'array vuoto delli nostri film
     links:["Home","Pages","Cours formats","Courses","Demos"],
 
+    elements:["All Categories","Business","Design","Development","IT & Software","Lifestyle","Marketing","Office Productivity"],
+
     Topics:[
         {
             icon:'<i class="fa-solid fa-chart-column"></i>',
@@ -25,6 +27,28 @@ export const store = reactive({
         {
             icon:'<i class="fa-solid fa-print"></i>',
             name:'Office Productivity'
+        },
+        
+    ],
+    Icons:[
+        {
+            icon:'<i class="fa-solid fa-tv"></i>',
+        },
+        {
+            icon:'<i class="fa-solid fa-life-ring"></i>',
+            
+        },
+        {
+            icon:'<i class="fa-solid fa-wrench"></i>',
+            
+        },
+        {
+            icon:'<i class="fa-solid fa-cart-shopping"></i>',
+            
+        },
+        {
+            icon:'<i class="fa-solid fa-mobile-screen"></i>',
+            
         },
         
     ],

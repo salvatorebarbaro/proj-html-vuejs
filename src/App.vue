@@ -5,6 +5,9 @@ import AppNavbarThird from './components/AppNavbarThird.vue';
 import AppSectionRed from './components/AppSectionRed.vue';
 import AppSectionCourses from './components/AppSectionCourses.vue';
 
+import AppSectionSlider from './components/AppSectionSlider.vue';
+import AppCorsirecenti from './components/AppCorsirecenti.vue';
+
 export default{
   data(){
     return{
@@ -16,6 +19,8 @@ export default{
       AppNavbarThird,
       AppSectionRed,
       AppSectionCourses,
+      AppSectionSlider,
+      AppCorsirecenti,
   },
   created(){
    
@@ -34,7 +39,8 @@ export default{
   <AppNavbarThird></AppNavbarThird>
   <AppSectionRed></AppSectionRed>
   <AppSectionCourses></AppSectionCourses>
-  
+  <AppSectionSlider></AppSectionSlider>
+  <AppCorsirecenti></AppCorsirecenti>
  
 </template>
 

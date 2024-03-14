@@ -35,7 +35,7 @@ export default{
 
 <template>
     <div id="cards">
-        <img :src="elemento.img" alt="">
+        <img :src='elemento.img' alt="">
         <span>{{ elemento.type }}</span>
         <span>{{elemento.name}}</span>
         <hr>
