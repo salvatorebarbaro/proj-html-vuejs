@@ -7,6 +7,8 @@ import AppSectionCourses from './components/AppSectionCourses.vue';
 
 import AppSectionSlider from './components/AppSectionSlider.vue';
 import AppCorsirecenti from './components/AppCorsirecenti.vue';
+import AppSectionNewsletter from './components/AppSectionNewsletter.vue';
+import AppPopularCours from './components/AppPopularCours.vue';
 
 export default{
   data(){
@@ -21,6 +23,9 @@ export default{
       AppSectionCourses,
       AppSectionSlider,
       AppCorsirecenti,
+      AppSectionNewsletter,
+      AppPopularCours,
+
   },
   created(){
    
@@ -41,6 +46,8 @@ export default{
   <AppSectionCourses></AppSectionCourses>
   <AppSectionSlider></AppSectionSlider>
   <AppCorsirecenti></AppCorsirecenti>
+  <AppSectionNewsletter></AppSectionNewsletter>
+  <AppPopularCours></AppPopularCours>
  
 </template>
 

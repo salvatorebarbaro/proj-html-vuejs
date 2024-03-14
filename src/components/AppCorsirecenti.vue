@@ -211,22 +211,7 @@
         </div>
      </div>
      <button>show all</button>
-     <!-- <div id="sezioneRossa">
-        <div id="contenitore">
-            <div id="sezione_testo">
-                <h3>Subscribe our newsletter</h3>
-                <p>They are many variations of passages of lorem ipsum aviable , but in the majority have suffered <br> alteration in some form , by injected humour, or randomised words</p>
-            </div>
-            <div id="Sezione_ricerca" >
-                <h3>Your E-mail address</h3>
-                <div class="topnav">
-                <input type="text" placeholder="Search Courses">
-                <button id="Bottone"><i class="fa-solid fa-magnifying-glass"></i></button>
-            </div>
-            </div>
-
-        </div>
-     </div> -->
+     
     </div>
   </template>
   
@@ -322,30 +307,7 @@
     font-weight: 600;
         margin-bottom: 110px;
     }
-    // #sezioneRossa{
-    //     width: 100%;
-    //     background-color: #FF4450;
-    //     display: flex;
-    //     justify-content: center;
-    //     #contenitore{
-    //         display: flex;
-    //         gap: 32px;
-    //         padding-top: 40px; ;
-    //         #sezione_testo{
-    //             h3{
-    //                 margin-bottom: 20px;
-    //             }
-    //         }
-    //         #Sezione_ricerca{
-    //             .topnav
-    //             {
-    //                 display: flex;
-    //                 align-items: stretch;
-    //             }
-    //         }
-
-    //     }
-    // }
+    
 
   }
   
