@@ -3,7 +3,7 @@
 
 
 export default{
-  name:'ItemsCourses',
+  name:'ItemsCoursPopolar',
   data(){
     return{
         
@@ -25,7 +25,7 @@ export default{
     
   },
   props:{
-    elemento:Object,
+    CardPopolari:Object,
    
   }
 }
@@ -36,16 +36,16 @@ export default{
 <template>
     <div id="card">
       <!-- <img src={{elemento.img}} alt=""> -->
-        <img :src="elemento.img" alt="">
+        <img :src="CardPopolari.img" alt="">
         <div id="Container_txt">
-          <span id="cosa">{{ elemento.type }}</span>
-          <span>{{elemento.name}}</span>
+          <span id="cosa">{{ CardPopolari.type }}</span>
+          <span>{{CardPopolari.name}}</span>
           <hr>
           <div id="Container_footer">
-            <div>{{ elemento.rating }}</div>
+            <div>{{ CardPopolari.rating }}</div>
             <div id="container_price">
-              <span id="price">{{ elemento.price }}</span>
-              <span>{{ elemento.discount }}</span>
+              <span id="price">{{ CardPopolari.price }}</span>
+              <span>{{ CardPopolari.discount }}</span>
             </div>
           </div>
         </div>

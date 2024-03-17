@@ -3,7 +3,7 @@
 
 
 export default{
-  name:'ItemsCourses',
+  name:'itemscorsirecenti',
   data(){
     return{
         
@@ -25,7 +25,7 @@ export default{
     
   },
   props:{
-    elemento:Object,
+    corso_recente_props:Object,
    
   }
 }
@@ -36,16 +36,16 @@ export default{
 <template>
     <div id="card">
       <!-- <img src={{elemento.img}} alt=""> -->
-        <img :src="elemento.img" alt="">
+        <img :src="corso_recente_props.img" alt="">
         <div id="Container_txt">
-          <span id="cosa">{{ elemento.type }}</span>
-          <span>{{elemento.name}}</span>
+          <span id="cosa">{{ corso_recente_props.type }}</span>
+          <span>{{corso_recente_props.name}}</span>
           <hr>
           <div id="Container_footer">
-            <div>{{ elemento.rating }}</div>
+            <div>{{ corso_recente_props.rating }}</div>
             <div id="container_price">
-              <span id="price">{{ elemento.price }}</span>
-              <span>{{ elemento.discount }}</span>
+              <span id="price">{{ corso_recente_props.price }}</span>
+              <span>{{ corso_recente_props.discount }}</span>
             </div>
           </div>
         </div>

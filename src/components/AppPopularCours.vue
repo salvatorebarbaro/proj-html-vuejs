@@ -1,15 +1,19 @@
 <script>
+import ItemsCoursPopolar from './ItemsCoursPopolar.vue';
 
+import {store} from '../components/store.js'
 export default{
   name:'AppPopularCours',
   data(){
     return{
+      store,
         
 
        
     }
   },
     components:{
+      ItemsCoursPopolar
         
       
   },
@@ -33,100 +37,11 @@ export default{
 <template>
      <div id="container_corsipopolari">
       <h2>Popular courses</h2>
-      <span>Discover our most popular courses for self learning</span>
+      <span id="Sottotesto">Discover our most popular courses for self learning</span>
       <div id="container_corsi">
-        <div class="card">
-          <img src="../assets/img/895786_7b4b_2-272x161.jpg" alt="">
-          <div id="container_txt">
-            <div class="cosa">Development></div>
-            <span>The Complete IOS 10 & Swift 3 Developer Course</span>
-            <hr>
-            <div class="container_footer">
-              <div>stelle</div>
-              <div class="container_price">
-                <span class="price">$199.99</span>
-                <span>$100</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <img src="../assets/img/1561458_7f3b-272x161.jpg" alt="">
-          <div id="container_txt">
-            <div class="cosa">Design></div>
-            <span>CSS-The Complete Guide 2020 (incl. Flexbox,Grid & sass)</span>
-            <hr>
-            <div class="container_footer">
-              <div>stelle</div>
-              <div class="container_price">
-                <span class="price">$199.99</span>
-                <span>$100</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <img src="../assets/img/246154_d8b0_3-272x161.jpg" alt="">
-          <div id="container_txt">
-            <div class="cosa">Development></div>
-            <span>Web Design for Beginners: Real World Coding in HTML & CSS</span>
-            <hr>
-            <div class="container_footer">
-              <div>stelle</div>
-              <div class="container_price">
-                <span class="price">$129.99</span>
-                <span>$65</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <img src="../assets/img/1208228_d61c_4-272x161.jpg" alt="">
-          <div id="container_txt">
-            <div class="cosa">Design></div>
-            <span>Digitally Painting Light and Color: Amateur to Master</span>
-            <hr>
-            <div class="container_footer">
-              <div>stelle</div>
-              <div class="container_price">
-                <span class="price">$139.99</span>
-                <span>$70</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <img src="../assets/img/186792_41e4_4-272x161.jpg" alt="">
-          <div id="container_txt">
-            <div class="cosa">Art & Craft></div>
-            <span>Become an Arabic Calligraphy Artist from Scratch</span>
-            <hr>
-            <div class="container_footer">
-              <div>stelle</div>
-              <div class="container_price">
-                <span class="price"></span>
-                <span>$199.99</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <img src="../assets/img/1776542_30b1-272x161.jpg" alt="">
-          <div id="container_txt">
-            <div class="cosa">Google></div>
-            <span>Google Searching Ninja!</span>
-            <hr>
-            <div class="container_footer">
-              <div>stelle</div>
-              <div class="container_price">
-                <span class="price">$89.99</span>
-                <span>$45</span>
-              </div>
-            </div>
-          </div>
-        </div>
+        <ItemsCoursPopolar v-for="corso_popolare in store.corsi_Popolari" :CardPopolari="corso_popolare"></ItemsCoursPopolar>
         
-     </div>
+      </div>
      <div id="section_button">
         <button><i class="fa-solid fa-chevron-left"></i></button>
         <button><i class="fa-solid fa-chevron-right"></i></button>
@@ -150,7 +65,7 @@ export default{
     margin-bottom: 10px;
     margin-top: 112px;
     }
-    span{
+    #Sottotesto{
         color: $testo;
         font-size: 14px;
         font-weight: 300;
@@ -161,6 +76,7 @@ export default{
     flex-direction: row;
     flex-wrap: wrap;
     gap:$gap ;
+    color: black;
     .card{
         display: flex;
         flex-direction: column;
