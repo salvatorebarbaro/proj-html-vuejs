@@ -127,6 +127,10 @@ export default{
             color: $grigio;
             cursor: pointer;
         }
+        button:hover{
+            background-color: #457992;
+            color: white;
+        }
     }
   }
   

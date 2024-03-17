@@ -255,6 +255,16 @@ export const store = reactive({
       },
       
   ],
+
+  Investiments: [
+    {
+      title:"Investing for Your Future",
+      Person: "Linda Green",
+      Job:"Product Manager, Apple Inc",
+      Text:"It is no exaggeration to say this MasterStudy experience was transformative-both professionally and personally. This workshop will long remain a high point of my life. Thanks again.... I am feeling energized and eager to start teaching my class next week. I can't wait to use all of my new teaching tools. I will absolutely recommend this workshop to other educators!",
+    },
+    
+],
       
 
     

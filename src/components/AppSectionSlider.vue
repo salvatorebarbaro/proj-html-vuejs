@@ -40,6 +40,7 @@ export default{
 </template>
 
 <style lang="scss">
+@use './style/varables.scss' as *;
 #container_img{
   position: relative;
   background-image: url(../assets/img/bg.png);
@@ -73,6 +74,9 @@ export default{
       cursor: pointer;
       white-space: nowrap;
       font-weight: 600;
+    }
+    button:hover{
+      background-color: $verde;
     }
   }
 }

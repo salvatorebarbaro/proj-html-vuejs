@@ -67,6 +67,7 @@ export default{
 </template>
 
 <style lang="scss">
+@use '../components/style/varables.scss' as *;
 #container_Second{
     background-color: white;
     padding: 24px 114px;
@@ -176,6 +177,9 @@ export default{
                     border-radius: 30px;
                     cursor: pointer;
                     white-space: nowrap;
+                }
+                Button:hover{
+                    background-color: $verde;
                 }
 
             }

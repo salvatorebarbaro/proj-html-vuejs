@@ -10,6 +10,7 @@ import AppCorsirecenti from './components/AppCorsirecenti.vue';
 import AppSectionNewsletter from './components/AppSectionNewsletter.vue';
 import AppPopularCours from './components/AppPopularCours.vue';
 import AppTypeUser from './components/AppTypeUser.vue';
+import AppInvesting from './components/AppInvesting.vue';
 
 export default{
   data(){
@@ -27,6 +28,7 @@ export default{
       AppSectionNewsletter,
       AppPopularCours,
       AppTypeUser,
+      AppInvesting,
 
 
   },
@@ -52,6 +54,7 @@ export default{
   <AppSectionNewsletter></AppSectionNewsletter>
   <AppPopularCours></AppPopularCours>
   <AppTypeUser></AppTypeUser>
+  <AppInvesting></AppInvesting>
  
 </template>
 

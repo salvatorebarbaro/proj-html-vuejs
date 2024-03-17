@@ -72,6 +72,7 @@
         align-items: center;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         background-color: white;
+        z-index: 10;
 
     }
     #containerCards{
@@ -93,6 +94,9 @@
     white-space: nowrap;
     font-weight: 600;
         margin-bottom: 110px;
+    }
+    button:hover{
+      background-color: $verde;
     }
     
 

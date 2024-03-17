@@ -44,8 +44,12 @@ export default{
         color: #484848;
         cursor: pointer;
     }
+    a:hover{
+      color: #FF4450;
+    }
     
 }
+
 
 
 </style>

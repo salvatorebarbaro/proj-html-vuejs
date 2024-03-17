@@ -91,6 +91,10 @@ export default{
     max-width: 200px;
     font-weight: 600;
         }
+        button:hover{
+            background-color: #46C197;
+
+        }
     }
 }
 </style>
