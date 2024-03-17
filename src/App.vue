@@ -12,6 +12,8 @@ import AppPopularCours from './components/AppPopularCours.vue';
 import AppTypeUser from './components/AppTypeUser.vue';
 import AppInvesting from './components/AppInvesting.vue';
 
+import AppFooter from './components/AppFooter.vue';
+
 export default{
   data(){
     return{
@@ -29,6 +31,7 @@ export default{
       AppPopularCours,
       AppTypeUser,
       AppInvesting,
+      AppFooter,
 
 
   },
@@ -55,7 +58,7 @@ export default{
   <AppPopularCours></AppPopularCours>
   <AppTypeUser></AppTypeUser>
   <AppInvesting></AppInvesting>
- 
+  <AppFooter></AppFooter> 
 </template>
 
 <style lang="scss">

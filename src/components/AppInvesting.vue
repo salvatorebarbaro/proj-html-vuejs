@@ -44,7 +44,8 @@ export default{
     position: relative;
     img{
         width: 100%;
-        
+       object-fit: cover;
+        height: 100%;
     }
     #contenitore_testo{
         position: absolute;
@@ -61,11 +62,11 @@ export default{
     content: "";
     position: absolute;
     top: 180px;
-    right: -12px;
+    right: -18px;
     background-color: white;
     
-    width: 24px;
-    height: 24px;
+    width: 36px;
+    height: 36px;
     transform: rotate(45deg);
 
 }

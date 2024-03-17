@@ -265,8 +265,73 @@ export const store = reactive({
     },
     
 ],
-      
 
+About:[
+  {
+    title: "ABOUT",
+    testo: "Sed nec felis pellentesque, lacinia dui sed, ultricies sapien. Pellentesque orci lectus, consectetur vel, rutrum eu ipsum. Mauris accumsan eros eget libero posuere vulputate."
+  }
+
+],
+Contact:[
+  {
+    title: "contact",
+    address:"USA, California 20, First Avenue,",
+    where:"California",
+    contact1:"Tel:+1 212 458 300 32",
+    contact2:"Fax:+1 212 375 24 14",
+    email:"info@masterstudy.com",
+  }
+],
+Social:[
+  {
+    title: "Social network",
     
+  }
+],
+iconeSocial:[
+  {
+    icon:'<i class="fa-brands fa-facebook"></i>',
+    color:'#3B5998',
+  },
+  {
+    icon:'<i class="fa-brands fa-instagram"></i>',
+    color:'#C32AA3',
+  },
+  {
+    icon:'<i class="fa-brands fa-linkedin"></i>',
+    color:'#0077B5',
+  },
+  {
+    icon:'<i class="fa-brands fa-pinterest"></i>',
+    color:'#BD081C',
+  },
+  {
+    icon:'<i class="fa-brands fa-twitter"></i>',
+    color:'#1DA1F2',
+  },
+  {
+    icon:'<i class="fa-solid fa-basketball"></i>',
+    color:'#EA4C89',
+  },
+  {
+    icon:'<i class="fa-brands fa-google-plus"></i>',
+    color:'#DB4437',
+  },
+  {
+    icon:'<i class="fa-brands fa-skype"></i>',
+    color:'#00AFF0',
+  }  
+    
+    
+    
+    
+   
+    
+
+  
+]
+
+
 
 })
