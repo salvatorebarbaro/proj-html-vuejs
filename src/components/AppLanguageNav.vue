@@ -38,7 +38,7 @@ export default{
 
 <template>
     <div id="container">
-        <!-- :class="{'open':isDropdownOpen }" con questo comando noi andiamo ad applicare la classe open al dropdown -->
+        <!-- :class="{'open':isDropdownOpen }" con questo comando noi andiamo ad applicare la classe open al dropdown quando la variabile è true -->
         <div class="dropdown" :class="{'open':isDropdownOpen }">
             <button @click="Apertura_menu" class="dropbtn">English <i class="fa-solid fa-chevron-down"></i></button>
             <div id="myDropdown" class="dropdown-content">
@@ -65,6 +65,7 @@ export default{
 </template>
 
 <style lang="scss">
+@use './style/varables.scss' as *;
 #container{
     background-color: white;
     padding: 22px 114px;
@@ -91,6 +92,9 @@ export default{
         display: flex;
         flex-direction: column;
         gap: 5px;
+        background-color: white;
+        padding: 10px;
+        border: 1px solid $grigio;
         a{
             color: #AAAAAA;
             text-decoration: none;
