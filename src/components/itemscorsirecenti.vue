@@ -21,6 +21,25 @@ export default{
   },
 
   methods: {
+    starRating(rating){
+      // dichiaraimo la variabile che usaimo per salvarci le stelle vuota
+      let stars='';
+      // facciamo un ciclo per inserire le stelle fino al voto massimo ovvero 5
+      for( let i=0;i<5;i++){
+        // facciamo delle condizioni perchè inseriremo stelle piene fino a che i è < di rating 
+        if(rating>i){
+          // inseriamo dentro stars una stella piena
+          stars+='<i class="fa-solid fa-star"></i>';
+        }
+        else
+        {
+          // inseriamo dentro stars una stella piena
+          stars+='<i class="fa-regular fa-star"></i>';
+        }
+      }
+      // quando finsico la mia funzione ritorno le stelle in pagina
+      return stars;
+    }
     
     
   },
@@ -42,7 +61,7 @@ export default{
           <span>{{corso_recente_props.name}}</span>
           <hr>
           <div id="Container_footer">
-            <div>{{ corso_recente_props.rating }}</div>
+            <div id="stelle" v-html="starRating(corso_recente_props.rating)"></div>
             <div id="container_price">
               <span id="price">{{ corso_recente_props.price }}</span>
               <span>{{ corso_recente_props.discount }}</span>
